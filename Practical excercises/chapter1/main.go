@@ -1,8 +1,14 @@
-package main
+package chapter1
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 // this is a comment
-func main() {
+func Main() {
 	fmt.Println("Hello, World")
+	//Q4
+	os.Exit(13)
+	//Q5...
 }
